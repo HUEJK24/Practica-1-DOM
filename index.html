@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+    <!--
+        Nombre de la escuela: Universidad Tecnologica Metropolitana
+        Asignatura: Aplicaciones web
+        Nombre del Maestro: Martinez Dominguez Ruth
+        Nombre de la actividad: Practica 1: DOM
+        Nombre de la alumna: López Sáenz Deisy
+        Cuatrimestre: Tercer cuatrimestre
+        Grupo: "A"
+    -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="titulo">LEGO STORE</h1>
+        
+    </header>
+    <main>
+        <p id="demo">La imaginación nunca es suficiente con LEGO, explora, aprende y diviertete.</p>
+        <p id="intro" class="intro">Un mundo en donde podrás explorar todo lo que quieras.</p>
+        <p id="intro" class="intro">Lego = Felicidad</p>
+        <p id="p1">Tenemos nuevas tendencias, ¿Haz oido hablar de Lego con Disney?</p>
+        <div id="main">
+            <p>Lego con Disney</p>
+            <p>Un muñeco que habla, que no se derrite ante el sol, acaso Olaf necesita un abrazo</p>
+        </div>
+        <ul id="lista">
+            <li>Mickey Mouse</li>
+            <li>Spiderman</li>
+            <li>Formula 1</li>
+            <li>Instrumentos</li>
+            <li>Monumentos</li>
+        </ul>
+        <button id="boton">Ingresar</button>
+        <button id="alertButton">Mostrar</button>
+        <form name="miFormulario" onsubmit="return validarFormulario()">
+            <input type="text" name="nombre">
+            <button type="submit">Enviar</button>
+        </form>
+        <input type="number" id="numero">
+        <button type="button" onclick="miFunction()">Validar Entrada</button>
+        <p id="resultado"></p>
+
+        <img id="imagen" src="https://st2.depositphotos.com/1009868/45177/i/450/depositphotos_451772690-stock-photo-tambov-russian-federation-january-2021.jpg" alt="Imagen de general de lego">
+
+        <p id="tiempo"></p>
+    
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
